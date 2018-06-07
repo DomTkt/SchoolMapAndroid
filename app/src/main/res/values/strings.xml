@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">android_cours_tp2</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- ACTIVITY DASHBOARD-->
+    <string name="dashboard_activity_button_go_to_list">Accéder à la liste des écoles</string>
+    <string name="dashboard_activity_button_go_to_map">Accéder à la carte des écoles</string>
+    <string name="dashboard_activity_header_text">Les écoles primaires de Lyon</string>
+    <string name="dashboard_activity_action_bar_title">Tableau de bord</string>
+    <string name="dashboard_activity_text_fail_webservice">Le webservice n\'a pas été chargé correctement.</string>
+    <string name="dashboard_activity_text_failure_webservice">Webservice non fonctionnelle</string>
+    <!-- ACTIVITY LIST SCHOOL-->
+    <string name="list_school_activity_header_text">Les écoles aux alentours</string>
+    <string name="list_school_activity_action_bar_title">Liste</string>
+    <!-- VIEW HOLDER SCHOOL-->
+    <string name="list_school_view_holder_status_open">Ouvert</string>
+    <string name="list_school_view_holder_status_close">Fermée</string>
+    <string name="list_school_view_holder_text_latitude">Latitude :</string>
+    <string name="list_school_view_holder_text_longitude">Longitude :</string>
+    <string name="list_school_view_holder_text_nb_eleves">Nombre d\'élèves :</string>
+
+    <!-- COMMON-->
+    <string name="common_webservice_success_text">Données chargées avec succès</string>
+
+
+</resources>

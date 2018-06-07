@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECF0F0"
+    tools:context="com.example.dominique.android_cours_tp2.presenter.ListSchoolActivity">
+
+    <TextView
+        android:id="@+id/textview_activity_list_school_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/list_school_activity_header_text"
+        android:background="@drawable/activity_list_header_school"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:layout_gravity="center"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/textview_activity_list_school_header"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/recycler_view_school"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</RelativeLayout>

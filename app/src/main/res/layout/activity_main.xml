@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    tools:context="com.example.dominique.android_cours_tp2.presenter.DashboardActivity">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dashboard_activity_header_text"
+            android:background="@drawable/activity_dashboard_header"
+            android:textSize="35dp"
+            android:textAlignment="center"
+            android:textColor="#000"
+            android:layout_gravity="center"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/linear_layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:id="@+id/btn_go_to_list_school"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:background="@drawable/activity_list_button_round"
+            android:text="@string/dashboard_activity_button_go_to_list"
+            />
+
+        <Button
+            android:id="@+id/btn_go_to_map_schools"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_height="80dp"
+            android:background="@drawable/activity_map_button_round"
+            android:text="@string/dashboard_activity_button_go_to_map"
+            />
+
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            android:background="@drawable/school_icon"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

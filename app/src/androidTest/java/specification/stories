@@ -1,0 +1,22 @@
+As a user I want to get a postal code in order to display in the list;
+Given a user when i have 5.2 and 5.3 then the city should be 69002;
+
+As a user I want to get the street in order to display.
+Given a user when i have 4.5 for the latitude and 5.3 for the longitude then the street is ...;
+
+As a user I want to get the country in order to display.
+Given a user when i have 4.5 for the latitude and 5.3 for the longitude then the country is ...;
+
+As a user I want to get the city in order to display.
+Given a user when i have 4.5 for the latitude and 5.3 for the longitude then the city is ...;
+
+As a user I want to get the color in order to display.
+
+GivenAUserWhenIHave301ForTheNumberOfStudentThenReturnTrue
+GivenAUserWhenIHave150ForTheNumberOfStudentThenReturnTrue
+GivenAUserWhenIHaveANumberBetween150And300ForTheNumberOfStudentThenReturnTrue;
+
+
+difference entre test d'intégration et test unitaire
+
+mock des données contre API Web
